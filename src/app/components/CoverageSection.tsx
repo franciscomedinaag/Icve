@@ -48,28 +48,6 @@ export function CoverageSection() {
               />
             </div>
 
-            {/* Cities List */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="grid grid-cols-2 md:grid-cols-4 gap-4"
-            >
-              {cities.map((city, index) => (
-                <div
-                  key={index}
-                  className="flex items-center gap-2 p-3 rounded-xl transition-all duration-300 hover:shadow-md"
-                  style={{ backgroundColor: 'var(--icve-light-gray)' }}
-                >
-                  <MapPin className="h-4 w-4 flex-shrink-0" style={{ color: 'var(--icve-electric-green)' }} />
-                  <span className="text-sm font-medium" style={{ color: 'var(--icve-dark-gray)' }}>
-                    {city.name}
-                  </span>
-                </div>
-              ))}
-            </motion.div>
-
             {/* Coverage Note */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -79,7 +57,7 @@ export function CoverageSection() {
               className="mt-8 text-center p-6 rounded-2xl" style={{ backgroundColor: 'var(--icve-forest-green)' }}
             >
               <p className="text-white text-lg">
-                ¿No ves tu ciudad? <span className="font-semibold">Contáctanos</span> – también atendemos proyectos en otras ubicaciones
+                <span className="font-semibold">Contáctanos</span> – atendemos proyectos en la ZMG y otras ubicaciones
               </p>
             </motion.div>
           </motion.div>

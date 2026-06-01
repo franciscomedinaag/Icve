@@ -34,7 +34,7 @@ export function FloatingWhatsApp() {
   }, []);
 
   const handleClick = () => {
-    window.open('https://wa.me/523312345678?text=Hola,%20me%20interesa%20obtener%20información%20sobre%20la%20instalación%20de%20cargadores%20para%20vehículos%20eléctricos', '_blank');
+    window.open('https://wa.me/523331314101?text=Hola,%20me%20interesa%20obtener%20información%20sobre%20la%20instalación%20de%20cargadores%20para%20vehículos%20eléctricos', '_blank');
   };
 
   return (

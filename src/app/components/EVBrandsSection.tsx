@@ -2,20 +2,10 @@ import { motion } from "motion/react";
 
 const brands = [
   { name: "Tesla", logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg" },
-  { name: "BMW", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" },
+  { name: "BYD", logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/BYD_Company%2C_Ltd._-_Logo.svg" },
   { name: "Audi", logo: "https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg" },
   { name: "Mercedes-Benz", logo: "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg" },
   { name: "Volkswagen", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg" },
-  { name: "Nissan", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nissan_logo.svg" },
-  { name: "Chevrolet", logo: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Chevrolet_logo.svg" },
-  { name: "Ford", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" },
-  { name: "Hyundai", logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/Hyundai_logo_2011.svg" },
-  { name: "Kia", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kia-logo-2560x1440.svg" },
-  { name: "Porsche", logo: "https://upload.wikimedia.org/wikipedia/commons/8/80/Porsche_logo.svg" },
-  { name: "Volvo", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Volvo_iron_mark_black.svg" },
-  { name: "Polestar", logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Polestar_logo.svg" },
-  { name: "BYD", logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/BYD_company_logo.svg" },
-  { name: "Rivian", logo: "https://upload.wikimedia.org/wikipedia/commons/7/78/Rivian_logo.svg" }
 ];
 
 export function EVBrandsSection() {
