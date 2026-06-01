@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "build:docs": "vite build",
+    "preview": "vite preview",
+    "prepare:gh-pages": "echo \"Before publishing: replace REPO_NAME in vite.config.ts with your GitHub repo name.\""
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
