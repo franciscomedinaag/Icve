@@ -17,8 +17,10 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  // For GitHub Pages: base set to this repository name so routing works
-  base: '/Icve/',
+  // For GitHub Pages with a custom domain we serve from the site root
+  // so use `/` as the base. If you ever serve under a path
+  // (e.g. username.github.io/repo), change this back to '/repo/'.
+  base: '/',
   build: {
     outDir: 'docs',
     emptyOutDir: true,
