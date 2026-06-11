@@ -38,6 +38,18 @@ export function Footer() {
                   +52 (33) 3131-4101
                 </a>
               </li>
+              <li className="flex items-center gap-2">
+                <Mail className="h-4 w-4 text-[#8bbb2b]" />
+                <a href="mailto:ventas@jrvolt.com" className="hover:text-[#8bbb2b] transition-colors">
+                  ventas@jrvolt.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Mail className="h-4 w-4 text-[#8bbb2b]" />
+                <a href="mailto:atencionalcliente@jrvolt.com" className="hover:text-[#8bbb2b] transition-colors">
+                  atencionalcliente@jrvolt.com
+                </a>
+              </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-[#8bbb2b] flex-shrink-0 mt-0.5" />
                 <span> Plaza Pabellón, Av. Acueducto 2380, Colinas de San Javier, 44665 Guadalajara, Jal.</span>

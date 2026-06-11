@@ -8,7 +8,7 @@ const testimonials = [
     role: "Propietario de Tesla Model 3",
     location: "Guadalajara, Jalisco",
     rating: 5,
-    text: "Excelente servicio. El equipo de ICVE instaló mi cargador en casa de manera profesional y rápida. Ahora cargo mi Tesla todas las noches sin problemas. Totalmente recomendados.",
+    text: "Excelente servicio. El equipo de JR Volt instaló mi cargador en casa de manera profesional y rápida. Ahora cargo mi Tesla todas las noches sin problemas. Totalmente recomendados.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
     role: "Gerente de Operaciones",
     location: "Zapopan, Jalisco",
     rating: 5,
-    text: "Necesitábamos instalar cargadores para nuestra flota de vehículos eléctricos en la empresa. ICVE nos asesoró desde el principio y la instalación fue impecable. Muy profesionales.",
+    text: "Necesitábamos instalar cargadores para nuestra flota de vehículos eléctricos en la empresa. JR Volt nos asesoró desde el principio y la instalación fue impecable. Muy profesionales.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
   },
   {

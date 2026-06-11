@@ -207,8 +207,8 @@ export function ContactFormSection() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-300 mb-1">Correo electrónico</div>
-                    <a href="mailto:contacto@icve.mx" className="text-white text-lg hover:text-[#5DBB63] transition-colors break-all">
-                      contacto@icve.mx
+                    <a href="mailto:contacto@jrvolt.com" className="text-white text-lg hover:text-[#5DBB63] transition-colors break-all">
+                      contacto@jrvolt.com
                     </a>
                   </div>
                 </div>

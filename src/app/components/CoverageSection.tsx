@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MapPin } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 const cities = [
   { name: "Guadalajara", position: { top: "45%", left: "25%" } },
@@ -29,6 +29,17 @@ export function CoverageSection() {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Atendemos proyectos en Guadalajara y otras ciudades de México
           </p>
+          <div className="mt-6 flex flex-col items-center gap-2">
+            <a href="tel:+523331314101" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <Phone className="inline h-4 w-4 mr-2" /> +52 (33) 3131-4101
+            </a>
+            <a href="mailto:ventas@jrvolt.com" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <Mail className="inline h-4 w-4 mr-2" /> ventas@jrvolt.com
+            </a>
+            <a href="mailto:atencionalcliente@jrvolt.com" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <Mail className="inline h-4 w-4 mr-2" /> atencionalcliente@jrvolt.com
+            </a>
+          </div>
         </motion.div>
 
         <div className="max-w-5xl mx-auto">

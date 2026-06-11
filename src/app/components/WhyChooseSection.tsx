@@ -47,7 +47,7 @@ export function WhyChooseSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4" style={{ color: 'var(--icve-dark-gray)' }}>
-            ¿Por qué elegir ICVE?
+            ¿Por qué elegir JR Volt?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Somos expertos en instalación de cargadores para vehículos eléctricos
