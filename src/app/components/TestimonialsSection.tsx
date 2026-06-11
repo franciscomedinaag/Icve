@@ -57,12 +57,12 @@ export function TestimonialsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Card className="h-full hover:shadow-2xl transition-all duration-300 rounded-2xl border-2 hover:border-[#5DBB63]">
+              <Card className="h-full hover:shadow-2xl transition-all duration-300 rounded-2xl border-2 hover:border-[#8bbb2b]">
                 <CardContent className="p-8">
                   {/* Stars */}
                   <div className="flex gap-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 fill-[#5DBB63] text-[#5DBB63]" />
+                      <Star key={i} className="h-5 w-5 fill-[#8bbb2b] text-[#8bbb2b]" />
                     ))}
                   </div>
 

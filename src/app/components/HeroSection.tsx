@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { MessageCircle, CheckCircle } from "lucide-react";
-import logoImg from "../../imports/not_padding_Logo_-_ICVE-removebg-preview.png";
+import logoImg from "../../imports/jr-volt-full-removebg-preview.png";
 
 export function HeroSection() {
   const trustIndicators = [
@@ -39,7 +39,7 @@ export function HeroSection() {
           transition={{ duration: 0.6 }}
           className="flex justify-center"
         >
-          <img src={logoImg} alt="ICVE Logo" className="h-42 lg:h-55 brightness-0 invert" />
+          <img src={logoImg} alt="ICVE Logo" className="h-52 lg:h-64" />
         </motion.div>
       </div>
 
@@ -50,7 +50,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight"
+            className="text-3xl md:text-5xl lg:text-5xl font-bold text-white mb-6 mt-10 leading-tight"
           >
             Instalación de Cargadores para Vehículos Eléctricos
           </motion.h1>
@@ -73,7 +73,8 @@ export function HeroSection() {
           >
             <Button
               size="lg"
-              className="bg-[#5DBB63] hover:bg-[#4da854] text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              style={{ backgroundColor: 'var(--icve-forest-green)' }}
+              className="bg-[#8bbb2b] hover:bg-[#4da854] text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               onClick={() => window.open('https://wa.me/523331314101', '_blank')}
             >
               <WhatsAppIcon className="h-7 w-7 text-white relative z-10" />
@@ -99,7 +100,7 @@ export function HeroSection() {
           >
             {trustIndicators.map((indicator, index) => (
               <div key={index} className="flex items-center gap-2 text-white/90">
-                <CheckCircle className="h-5 w-5 text-[#5DBB63] flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#8bbb2b] flex-shrink-0" />
                 <span className="text-sm md:text-base">{indicator}</span>
               </div>
             ))}

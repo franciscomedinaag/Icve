@@ -86,4 +86,3 @@ Notes
 3. In GitHub repository Settings → Pages, set the custom domain to `icve.mx` (or push will add the CNAME automatically via the workflow). Enable "Enforce HTTPS" once GitHub provisions the certificate.
 
 Optional: After GitHub has issued a TLS certificate and the site is serving correctly, you may enable Cloudflare proxying (orange cloud) and set SSL/TLS → Mode to `Full (strict)` for optimal security. If you enable proxying, monitor for any certificate/redirect issues.
-  

@@ -47,17 +47,13 @@ export function EVBrandsSection() {
               whileHover={{ scale: 1.1 }}
               className="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-xl transition-all duration-300 aspect-square"
             >
-              {brand.logo ? (
+              {brand.logo &&(
                 <img 
                   src={brand.logo} 
                   alt={brand.name}
                   className="w-full h-full object-contain p-2"
                   style={{ filter: 'grayscale(100%)' }}
                 />
-              ) : (
-                <div className="text-center font-bold text-gray-800" style={{ fontSize: 'clamp(0.6rem, 2vw, 0.9rem)' }}>
-                  {brand.text}
-                </div>
               )}
             </motion.div>
           ))}
@@ -72,7 +68,7 @@ export function EVBrandsSection() {
           className="mt-16 text-center space-y-4"
         >
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full" style={{ backgroundColor: 'var(--icve-forest-green)' }}>
-            <Zap className="h-5 w-5 text-[#5DBB63]" />
+            <Zap className="h-5 w-5 text-white" />
             <span className="text-white">Compatible con todos los estándares de carga</span>
           </div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">

@@ -63,7 +63,7 @@ export function ServicesSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 hover:border-[#5DBB63] rounded-2xl group">
+              <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 hover:border-[#8bbb2b] rounded-2xl group">
                 <CardHeader>
                   <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300" style={{ backgroundColor: 'var(--icve-light-gray)' }}>
                     <service.icon className="h-7 w-7" style={{ color: 'var(--icve-forest-green)' }} />

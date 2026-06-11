@@ -41,8 +41,8 @@
   --sidebar-ring: oklch(0.708 0 0);
   
   /* ICVE Brand Colors */
-  --icve-forest-green: #2D5A27;
-  --icve-electric-green: #5DBB63;
+  --icve-forest-green: #8bbb2b;
+  --icve-electric-green: #8bbb2b;
   --icve-light-gray: #F5F7F5;
   --icve-dark-gray: #2C2C2C;
 }
