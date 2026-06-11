@@ -6,7 +6,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "build:docs": "vite build",
+    "build:docs": "vite build && node scripts/postbuild.js",
     "preview": "vite preview",
     "prepare:gh-pages": "echo \"Before publishing: replace REPO_NAME in vite.config.ts with your GitHub repo name.\""
   },
