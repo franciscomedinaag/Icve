@@ -31,26 +31,22 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
       </div>
 
-      {/* Header with Logo */}
-      <div className="absolute top-0 left-0 right-0 z-20 px-4 py-8 md:py-12">
-        <motion.div
+      {/* Hero Content */}
+      <div className="relative z-10 container mx-auto px-4 py-20 md:py-32" style={{ paddingTop: "40px" }}>
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="flex justify-center"
-        >
-          <img src={logoImg} alt="ICVE Logo" className="h-52 lg:h-64" />
-        </motion.div>
-      </div>
-
-      {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 md:py-32" style={{ paddingTop: "210px" }}>
-        <div className="max-w-4xl mx-auto text-center">
+          >
+            <img src={logoImg} alt="ICVE Logo" className="h-52 lg:h-64" />
+          </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-3xl md:text-5xl lg:text-5xl font-bold text-white mb-6 mt-10 leading-tight"
+            className="text-3xl md:text-5xl lg:text-5xl font-bold text-white mb-3 mt-10 leading-tight"
           >
             Instalación de Cargadores para Vehículos Eléctricos
           </motion.h1>
