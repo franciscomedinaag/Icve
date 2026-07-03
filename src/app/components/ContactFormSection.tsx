@@ -178,8 +178,8 @@ export function ContactFormSection() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-300 mb-1">Teléfono</div>
-                    <a href="tel:+523331314101" className="text-white text-lg hover:text-[#5DBB63] transition-colors">
-                      +52 (33) 1234-5678
+                    <a href="tel:+523329544065" className="text-white text-lg hover:text-[#5DBB63] transition-colors">
+                      +52 (33) 2954-4065
                     </a>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ export function ContactFormSection() {
                   <div>
                     <div className="text-sm text-gray-300 mb-1">WhatsApp</div>
                     <a 
-                      href="https://wa.me/523331314101" 
+                      href="https://wa.me/523329544065" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-white text-lg hover:text-[#5DBB63] transition-colors"

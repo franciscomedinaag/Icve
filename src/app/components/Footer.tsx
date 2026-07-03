@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import logoImg from "../../imports/jr-volt-minimal-removebg-preview.png";
 
 export function Footer() {
@@ -34,8 +34,8 @@ export function Footer() {
             <ul className="space-y-3 text-gray-400 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-[#8bbb2b]" />
-                <a href="tel:+523331314101" className="hover:text-[#8bbb2b] transition-colors">
-                  +52 (33) 3131-4101
+                <a href="tel:+523329544065" className="hover:text-[#8bbb2b] transition-colors">
+                  +52 (33) 2954-4065
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -48,6 +48,18 @@ export function Footer() {
                 <Mail className="h-4 w-4 text-[#8bbb2b]" />
                 <a href="mailto:atencionalcliente@jrvolt.com" className="hover:text-[#8bbb2b] transition-colors">
                   atencionalcliente@jrvolt.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Facebook className="h-4 w-4 text-[#8bbb2b]" />
+                <a href="https://www.facebook.com/profile.php?id=61591546138542" target="_blank" rel="noopener noreferrer" className="hover:text-[#8bbb2b] transition-colors">
+                  JR Volt | Guadalajara
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Instagram className="h-4 w-4 text-[#8bbb2b]" />
+                <a href="https://www.instagram.com/jrvoltgdl/" target="_blank" rel="noopener noreferrer" className="hover:text-[#8bbb2b] transition-colors">
+                  jrvoltgdl
                 </a>
               </li>
               <li className="flex items-start gap-2">

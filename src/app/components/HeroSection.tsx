@@ -7,7 +7,7 @@ export function HeroSection() {
   const trustIndicators = [
     "Atención",
     "Instalación",
-    "+52 33 3131 4101",
+    "+52 33 2954 4065",
     "Soporte postventa"
   ];
 
@@ -71,7 +71,7 @@ export function HeroSection() {
               size="lg"
               style={{ backgroundColor: 'var(--icve-forest-green)' }}
               className="bg-[#8bbb2b] hover:bg-[#4da854] text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={() => window.open('https://wa.me/523331314101', '_blank')}
+              onClick={() => window.open('https://wa.me/523329544065', '_blank')}
             >
               <WhatsAppIcon className="h-7 w-7 text-white relative z-10" />
               Solicitar Cotización
@@ -80,7 +80,7 @@ export function HeroSection() {
               size="lg"
               variant="outline"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-white/30 px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={() => window.open('tel:+523331314101', '_blank')}
+              onClick={() => window.open('tel:+523329544065', '_blank')}
             >
               <MessageCircle className="h-5 w-5" />
               Llamar Ahora

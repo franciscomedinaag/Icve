@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react";
 
 const cities = [
   { name: "Guadalajara", position: { top: "45%", left: "25%" } },
@@ -30,14 +30,20 @@ export function CoverageSection() {
             Atendemos proyectos en Guadalajara y otras ciudades de México
           </p>
           <div className="mt-6 flex flex-col items-center gap-2">
-            <a href="tel:+523331314101" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
-              <Phone className="inline h-4 w-4 mr-2" /> +52 (33) 3131-4101
+            <a href="tel:+523329544065" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <Phone className="inline h-4 w-4 mr-2" /> +52 (33) 2954-4065
             </a>
             <a href="mailto:ventas@jrvolt.com" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
               <Mail className="inline h-4 w-4 mr-2" /> ventas@jrvolt.com
             </a>
             <a href="mailto:atencionalcliente@jrvolt.com" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
               <Mail className="inline h-4 w-4 mr-2" /> atencionalcliente@jrvolt.com
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61591546138542" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <Facebook className="inline h-4 w-4 mr-2" /> JR Volt | Guadalajara
+            </a>
+            <a href="https://www.instagram.com/jrvoltgdl/" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <Instagram className="inline h-4 w-4 mr-2" /> jrvoltgdl
             </a>
           </div>
         </motion.div>
