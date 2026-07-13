@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
 
 const cities = [
   { name: "Guadalajara", position: { top: "45%", left: "25%" } },
@@ -44,6 +44,12 @@ export function CoverageSection() {
             </a>
             <a href="https://www.instagram.com/jrvoltgdl/" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
               <Instagram className="inline h-4 w-4 mr-2" /> jrvoltgdl
+            </a>
+            <a href="https://www.tiktok.com/@jrvolt_gdl?_r=1&_t=ZS-980L2qwbeA3" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-600 hover:text-[#5DBB63] transition-colors">
+              <svg viewBox="0 0 24 24" className="inline h-4 w-4 mr-2" aria-hidden="true">
+                <path fill="currentColor" d="M16.6 3.5a5.5 5.5 0 0 0 3.9 1.6v2.8a8.2 8.2 0 0 1-3.9-1.1v7.1a5.2 5.2 0 1 1-5.2-5.2c.2 0 .4 0 .6.1v2.8a2.4 2.4 0 1 0 1.7 2.3V3.5h1.9Z" />
+              </svg>
+              @jrvolt_gdl
             </a>
           </div>
         </motion.div>

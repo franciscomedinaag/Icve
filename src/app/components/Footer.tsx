@@ -62,6 +62,14 @@ export function Footer() {
                   jrvoltgdl
                 </a>
               </li>
+              <li className="flex items-center gap-2">
+                <svg viewBox="0 0 24 24" className="h-4 w-4 text-[#8bbb2b]" aria-hidden="true">
+                  <path fill="currentColor" d="M16.6 3.5a5.5 5.5 0 0 0 3.9 1.6v2.8a8.2 8.2 0 0 1-3.9-1.1v7.1a5.2 5.2 0 1 1-5.2-5.2c.2 0 .4 0 .6.1v2.8a2.4 2.4 0 1 0 1.7 2.3V3.5h1.9Z" />
+                </svg>
+                <a href="https://www.tiktok.com/@jrvolt_gdl?_r=1&_t=ZS-980L2qwbeA3" target="_blank" rel="noopener noreferrer" className="hover:text-[#8bbb2b] transition-colors">
+                  @jrvolt_gdl
+                </a>
+              </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-[#8bbb2b] flex-shrink-0 mt-0.5" />
                 <span> Plaza Pabellón, Av. Acueducto 2380, Colinas de San Javier, 44665 Guadalajara, Jal.</span>
